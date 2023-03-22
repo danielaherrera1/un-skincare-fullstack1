@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100px;
+    list-style: none;
+    background: #ffffff;
+    
+        
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 10px;
+    color: #080808;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+
+
+.head{
+      
+   
+    align-items: center;
+    height: 6px;
+    width: 100%;
+    
+
+}
+
+.content_header{
+
+   
+    height: 400px;
+    width: 750px;
+    margin-left: 600px;
+    
+  
+}
+
+.fondo{
+    background: url(../img/fondo.jpg);
+    background-size: 1380px 400px;
+    background-repeat: no-repeat;
+
+}
+ .logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style:italic;
+    color: #080808;
+    
+    
+ }
+
+    
+.contacto{
+    height: 600px;
+    width: 650px;
+    font-weight: bold;
+    float: left;
+   
+}
+
+.fondo_contacto{
+    height: 600px;
+    width: 650px;
+    background: url(../img/contacto.jpg);
+    background-size: 700px;
+   
+    float: left;
+   
+}
+
+footer{
+    clear: both;
+    background: #ebe5e9;
+
+}
+
+.content_contacto{
+    height: 400px;
+    width: 650px; 
+}
+
+.fondo_tips{
+    height: 200px;
+    width: 250px;
+    background-size: 100px;
+    float: left;
+}
+
+.col{
+    height: 300px;
+    width: 200px;
+    border-color: #f0ecef;
+    border-width: 2px;
+    border-style:solid;
+    margin-left: 2px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    
+    
+
+
+    }
+.container1{
+    background: url(../img/tips.jpg);
+    background-size: 1380px 500px;
+    background-repeat: no-repeat;
+}
+
+nota{
+ clear: both;
+}
+
+.titulo{
+    
+        height: 600px;
+        width: 650px;
+        float: left;
+        margin-left: 50px;
+       
+}
+
+.titulo1{
+         height: 500px;
+        width: 450px;
+        background: url(../img/protectorsolar.jpg);
+        background-size: 500px;
+        float: left;
+        align-items: center;
+        margin-left: 100px;
+}
+
+.col_ampm{
+    height: 900px;
+    width: 550px;
+    border-color: #f0ecef;
+    border-width: 2px;
+    border-style:solid;
+    margin-left: 3px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    opacity: 0.7;
+ }
