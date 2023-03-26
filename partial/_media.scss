@@ -1,0 +1,18 @@
+
+
+@media screen and (max-width: 576px) {
+    .content_header{
+
+        height: 400px;
+        width: 100%;
+    }
+    .content_header p{  
+        text-align: justify;
+        color:#ffffff;
+        height: 300px;
+        overflow: hidden
+    }
+    .content_header h2{ 
+        color:#ffffff; 
+    }
+}
