@@ -153,4 +153,42 @@ nota {
   .content_header h2 {
     color: #ffffff;
   }
+  .titulo {
+    height: 600px;
+    width: 80%;
+  }
+  .titulo p {
+    text-align: justify;
+    color: #da0a0a;
+    height: 450px;
+    overflow: hidden;
+  }
+  .titulo h1 {
+    color: #d63030;
+  }
+  .titulo1 {
+    margin-left: 50px;
+  }
+  .navbar {
+    max-width: 576px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  .navbar a {
+    font-size: 14px;
+  }
+  .contactanos {
+    width: 50%;
+  }
+  .fondo_contacto {
+    background-size: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .contacto {
+    width: 100%;
+  }
+  .content_contacto {
+    width: 100%;
+  }
 }/*# sourceMappingURL=estilo.css.map */
