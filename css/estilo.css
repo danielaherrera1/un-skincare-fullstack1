@@ -33,7 +33,7 @@ body {
 
 .head {
   align-items: center;
-  height: 6px;
+  height: 100%;
   width: 100%;
 }
 
@@ -106,10 +106,6 @@ footer {
   background-repeat: no-repeat;
 }
 
-nota {
-  clear: both;
-}
-
 .titulo {
   height: 600px;
   width: 650px;
@@ -146,9 +142,10 @@ nota {
   }
   .content_header p {
     text-align: justify;
-    color: #ffffff;
+    color: #585555;
     height: 300px;
     overflow: hidden;
+    font-size: 12px;
   }
   .content_header h2 {
     color: #ffffff;
@@ -167,7 +164,10 @@ nota {
     color: #d63030;
   }
   .titulo1 {
-    margin-left: 50px;
+    margin-left: 10px;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-color: #d63030;
   }
   .navbar {
     max-width: 576px;
@@ -175,7 +175,7 @@ nota {
     height: 50px;
   }
   .navbar a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .contactanos {
     width: 50%;
@@ -190,5 +190,12 @@ nota {
   }
   .content_contacto {
     width: 100%;
+  }
+  .container1 {
+    color: #585555;
+  }
+  .col_ampm {
+    height: 100%;
+    width: 98%;
   }
 }/*# sourceMappingURL=estilo.css.map */

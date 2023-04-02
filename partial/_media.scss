@@ -8,9 +8,10 @@
     }
     .content_header p{  
         text-align: justify;
-        color:#ffffff;
+        color:#585555;
         height: 300px;
-        overflow: hidden
+        overflow: hidden;
+        font-size: 12px;
     }
     .content_header h2{ 
         color:#ffffff; 
@@ -32,7 +33,10 @@
 }
 .titulo1{
 
-    margin-left: 50px;
+    margin-left: 10px;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-color: #d63030;
 }
 .navbar{
     
@@ -43,7 +47,7 @@
 }
 .navbar a {
   
-    font-size: 14px;
+    font-size: 12px;
     
 }
 .contactanos{
@@ -62,9 +66,14 @@
     width: 100%;
 
 }
+.container1 {
+    color:#585555;
+}
+
+.col_ampm {
+    height: 100%;
+    width: 98%;
+  }
 
    }
-
-
-
 
