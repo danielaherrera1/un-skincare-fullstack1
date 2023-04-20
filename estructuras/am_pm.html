@@ -37,7 +37,7 @@
         <a>Un skincare fullstack</a>
       </header>
 
-      <nav>
+      <nav class="menu_principal">
         <ul class="navbar">
           <li><a href="../index.html">Inicio</a></li>
           <li><a href="tips.html">Tips</a></li>
@@ -46,95 +46,126 @@
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
-
-      <div class="fondo2">
-        <section class="content header">
-          <h2 class="title">Orden ideal para tu cuidado facial</h2>
-        </section>
-        <div class="container text-center">
-          <div class="row align-items-center">
-            <div class="col_ampm">
-              <img src="../img/sol.jpg" alt="sol" />
-              <style>
-                img {
-                  animation: bounce;
-                  animation-duration: 3s;
-                }
-              </style>
-              <ol>
-                <br />
-                <li>Limpiador</li>
-                <p>
-                  Es el responsable de remover todas las capa de impurezas que
-                  se atasca en nuestra piel.
-                </p>
-
-                <li>Tónico</li>
-                <p>
-                  Contribuye a refrescar, hidratar,cerras los poros equilibrar
-                  la piel,y la prepara para que pueda recibir el tratamiento
-                  posterior.
-                </p>
-
-                <li>Hidratante</li>
-                <p>
-                  Mantiene la piel más elásticada, suave y luminosa. Limitan y
-                  suavizan las líneas de expresión o arruegas
-                </p>
-
-                <li>Protección</li>
-                <p>
-                  Los protectores solares son agentes que ayudan a prevenir que
-                  los rayos ultravioleta (UV) lleguen a la piel. Se debe aplicar
-                  cada cada 2 horas.
-                </p>
-              </ol>
-            </div>
-            <div class="col_ampm">
-              <img src="../img/luna.jpg" alt="luna" />
-              <ol>
-                <br />
-                <li>Limpiador</li>
-                <p>
-                  Eliminará bancterias, exceso de sebo, sudor y particulas que
-                  diariamente se adhieren en la piel y eliminara los restos de
-                  maquillaje que el desmaquillante no quitó.
-                </p>
-
-                <li>Tónico</li>
-                <p>
-                  Debe tener activos dirigidos a refrescar, revitalizar,
-                  equilibrar el Ph, cerrar poros. En definitiva preparar la piel
-                  para que el tratamiento que aplicaremos despué
-                </p>
-
-                <li>Sérum</li>
-                <p>
-                  Se debe elegir aquella que mejor trabaje por satisfacer las
-                  exigencias de nuestra piel: luminosidad, hidratación, suavidad
-                </p>
-
-                <li>Contorno de ojos</li>
-                <p>
-                  La piel debajo del ojo es mucho más fina por lo que necesita
-                  productos ligeros y de fácil absorción, de lo contrario no
-                  tendrá la capacidad de asimilar los nutrientes.
-                </p>
-
-                <li>Hidratación</li>
-                <p>
-                  Además de hidratar la piel, te brindara vitaminas y nutrientes
-                  para lucir una piel sana y tersa.
-                </p>
-                <br />
-                <p>
-                  Recuerda siempre visitar un dermatologo para valorar los
-                  problemas que se presentan en tu piel.
-                </p>
-              </ol>
-            </div>
+      <div class="hamburguesa">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="am_pm.html">Am Pm</a></li>
+            <li><a href="protectorsolar.html">Protector solar</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <span class="text-body-secondary"
+              >Toggleable via the navbar brand.</span
+            >
           </div>
         </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="fondo2">
+        <main>
+          <section class="content header">
+            <h2 class="title">Orden ideal para tu cuidado facial</h2>
+          </section>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col_ampm">
+                <img src="../img/sol.jpg" alt="sol" />
+                <style>
+                  img {
+                    animation: bounce;
+                    animation-duration: 3s;
+                  }
+                </style>
+                <ol>
+                  <br />
+                  <li>Limpiador</li>
+                  <p>
+                    Es el responsable de remover todas las capa de impurezas que
+                    se atasca en nuestra piel.
+                  </p>
+
+                  <li>Tónico</li>
+                  <p>
+                    Contribuye a refrescar, hidratar,cerras los poros equilibrar
+                    la piel,y la prepara para que pueda recibir el tratamiento
+                    posterior.
+                  </p>
+
+                  <li>Hidratante</li>
+                  <p>
+                    Mantiene la piel más elásticada, suave y luminosa. Limitan y
+                    suavizan las líneas de expresión o arruegas
+                  </p>
+
+                  <li>Protección</li>
+                  <p>
+                    Los protectores solares son agentes que ayudan a prevenir
+                    que los rayos ultravioleta (UV) lleguen a la piel. Se debe
+                    aplicar cada cada 2 horas.
+                  </p>
+                </ol>
+              </div>
+              <div class="col_ampm">
+                <img src="../img/luna.jpg" alt="luna" />
+                <ol>
+                  <br />
+                  <li>Limpiador</li>
+                  <p>
+                    Eliminará bancterias, exceso de sebo, sudor y particulas que
+                    diariamente se adhieren en la piel y eliminara los restos de
+                    maquillaje que el desmaquillante no quitó.
+                  </p>
+
+                  <li>Tónico</li>
+                  <p>
+                    Debe tener activos dirigidos a refrescar, revitalizar,
+                    equilibrar el Ph, cerrar poros. En definitiva preparar la
+                    piel para que el tratamiento que aplicaremos despué
+                  </p>
+
+                  <li>Sérum</li>
+                  <p>
+                    Se debe elegir aquella que mejor trabaje por satisfacer las
+                    exigencias de nuestra piel: luminosidad, hidratación,
+                    suavidad
+                  </p>
+
+                  <li>Contorno de ojos</li>
+                  <p>
+                    La piel debajo del ojo es mucho más fina por lo que necesita
+                    productos ligeros y de fácil absorción, de lo contrario no
+                    tendrá la capacidad de asimilar los nutrientes.
+                  </p>
+
+                  <li>Hidratación</li>
+                  <p>
+                    Además de hidratar la piel, te brindara vitaminas y
+                    nutrientes para lucir una piel sana y tersa.
+                  </p>
+                  <br />
+                  <p>
+                    Recuerda siempre visitar un dermatologo para valorar los
+                    problemas que se presentan en tu piel.
+                  </p>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </main>
       </div>
     </div>
     <footer>

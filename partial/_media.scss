@@ -2,22 +2,22 @@
 
 @media screen and (max-width: 576px) {
     .content_header{
-
         height: 400px;
         width: 100%;
-    }
+}
     .content_header p{  
         text-align: justify;
         color:#585555;
         height: 300px;
         overflow: hidden;
         font-size: 12px;
-    }
+}
+    
     .content_header h2{ 
         color:#ffffff; 
- 
-   }
-   .titulo{
+}
+   
+    .titulo{
     height: 600px;
     width: 80%;
 }
@@ -32,40 +32,36 @@
 
 }
 .titulo1{
-
     margin-left: 10px;
-    width: 95%;
-    background-repeat: no-repeat;
-    background-color: #d63030;
-}
-.navbar{
-    
-    max-width: 576px;
-    margin: 0 auto;
-    height: 50px;
-   
-}
-.navbar a {
-  
-    font-size: 12px;
-    
-}
-.contactanos{
-    
-    width: 50%; 
-}
-.fondo_contacto{
-    background-size: 500px;
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
+    background-image: url(../img/protectorsolar.jpg);
+    background-position: center;
+    object-fit: cover;
+}
+.menu_principal{
+    display: none;
+}
+
+.contactanos{
+    width: 50%; 
+}
+
+.fondo_contacto{
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(../img/contacto.jpg);
 }
 .contacto{
     width: 100%; 
 }
 .content_contacto{
     width: 100%;
-
 }
+
 .container1 {
     color:#585555;
 }
@@ -74,6 +70,16 @@
     height: 100%;
     width: 98%;
   }
+.navbar{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 50px;
+}
+}
 
-   }
-
+@media screen and (min-width: 576px) { 
+    .hamburguesa{
+      display: none;
+    }
+ 
+}

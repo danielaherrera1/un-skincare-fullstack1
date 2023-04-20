@@ -11,26 +11,6 @@ body {
   font-family: sans-serif;
 }
 
-.navbar {
-  display: flex;
-  justify-self: center;
-  align-items: center;
-  max-width: 720px;
-  margin: 0 auto;
-  height: 100px;
-  list-style: none;
-  background: #ffffff;
-}
-
-.navbar a {
-  display: block;
-  padding: 23px 10px;
-  color: #080808;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
 .head {
   align-items: center;
   height: 100%;
@@ -56,83 +36,9 @@ body {
   color: #080808;
 }
 
-.contacto {
-  height: 600px;
-  width: 650px;
-  font-weight: bold;
-  float: left;
-}
-
-.fondo_contacto {
-  height: 600px;
-  width: 650px;
-  background: url(../img/contacto.jpg);
-  background-size: 700px;
-  float: left;
-}
-
 footer {
   clear: both;
   background: #ebe5e9;
-}
-
-.content_contacto {
-  height: 400px;
-  width: 650px;
-}
-
-.fondo_tips {
-  height: 200px;
-  width: 250px;
-  background-size: 100px;
-  float: left;
-}
-
-.col {
-  height: 40%;
-  width: 200px;
-  border-color: #f0ecef;
-  border-width: 2px;
-  border-style: solid;
-  margin-left: 2px;
-  padding-top: 30px;
-  background-color: #ffffff;
-  opacity: 0.7;
-}
-
-.container1 {
-  background: url(../img/tips.jpg);
-  background-size: 1380px 500px;
-  background-repeat: no-repeat;
-}
-
-.titulo {
-  height: 600px;
-  width: 650px;
-  float: left;
-  margin-left: 50px;
-}
-
-.titulo1 {
-  height: 500px;
-  width: 450px;
-  background: url(../img/protectorsolar.jpg);
-  background-size: 500px;
-  float: left;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.col_ampm {
-  height: 900px;
-  width: 550px;
-  border-color: #f0ecef;
-  border-width: 2px;
-  border-style: solid;
-  margin-left: 3px;
-  padding-top: 30px;
-  background-color: #ffffff;
-  opacity: 0.7;
 }
 
 @media screen and (max-width: 576px) {
@@ -165,25 +71,26 @@ footer {
   }
   .titulo1 {
     margin-left: 10px;
-    width: 95%;
+    height: 400px;
+    width: 100%;
     background-repeat: no-repeat;
-    background-color: #d63030;
+    background-image: url(../img/protectorsolar.jpg);
+    background-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-  .navbar {
-    max-width: 576px;
-    margin: 0 auto;
-    height: 50px;
-  }
-  .navbar a {
-    font-size: 12px;
+  .menu_principal {
+    display: none;
   }
   .contactanos {
     width: 50%;
   }
   .fondo_contacto {
-    background-size: 500px;
+    background-size: cover;
     width: 100%;
+    height: 500px;
     background-repeat: no-repeat;
+    background-image: url(../img/contacto.jpg);
   }
   .contacto {
     width: 100%;
@@ -198,4 +105,107 @@ footer {
     height: 100%;
     width: 98%;
   }
+  .navbar {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hamburguesa {
+    display: none;
+  }
+}
+.col_ampm {
+  height: 900px;
+  width: 550px;
+  border-color: #f0ecef;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 3px;
+  padding-top: 30px;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.navbar {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100px;
+  list-style: none;
+  background: #ffffff;
+}
+.navbar a {
+  display: block;
+  padding: 23px 10px;
+  color: #080808;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 577px) {
+  .fondo_contacto {
+    height: 600px;
+    width: 400px;
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    float: left;
+  }
+  .contacto {
+    height: 600px;
+    width: 650px;
+    font-weight: bold;
+    float: left;
+    margin-left: 40px;
+  }
+  .content_contacto {
+    height: 400px;
+    width: 650px;
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .titulo {
+    height: 600px;
+    width: 650px;
+    float: left;
+    margin-left: 50px;
+  }
+  .titulo1 {
+    height: 500px;
+    width: 450px;
+    background: url(../img/protectorsolar.jpg);
+    background-size: cover;
+    float: left;
+    align-items: center;
+    margin-left: 100px;
+  }
+}
+.col {
+  height: 40%;
+  width: 200px;
+  border-color: #f0ecef;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 2px;
+  padding-top: 30px;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.container1 {
+  background: url(../img/tips.jpg);
+  background-size: 1380px 500px;
+  background-repeat: no-repeat;
+}
+
+.fondo_tips {
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+  float: left;
 }/*# sourceMappingURL=estilo.css.map */

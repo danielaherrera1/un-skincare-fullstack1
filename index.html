@@ -33,7 +33,7 @@
       <header class="logo">
         <a>Un skincare fullstack</a>
       </header>
-      <nav>
+      <nav class="menu_principal">
         <ul class="navbar">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="estructuras/tips.html">Tips</a></li>
@@ -42,36 +42,68 @@
           <li><a href="estructuras/contacto.html">Contacto</a></li>
         </ul>
       </nav>
-
+      <div class="hamburguesa">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="estructuras/tips.html">Tips</a></li>
+            <li><a href="estructuras/am_pm.html">Am Pm</a></li>
+            <li>
+              <a href="estructuras/protectorsolar.html">Protector solar</a>
+            </li>
+            <li><a href="estructuras/contacto.html">Contacto</a></li>
+            <span class="text-body-secondary"
+              >Toggleable via the navbar brand.</span
+            >
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
       <div class="fondo">
-        <section class="content_header">
-          <br />
-          <h1 class="title">Skincare</h1>
-
-          <br />
-
-          <p>
-            La piel es una membrana semipermeable, compuesta por 3 capas,
-            epidermis, dermis e hipodermis. Está siempre expuesta al ambiente,
-            por eso tenemos que cuidarla.
+        <main>
+          <section class="content_header">
+            <br />
+            <h1 class="title">Skincare</h1>
 
             <br />
 
-            La genética, el envejecimiento, las hormonas, el estrés, la
-            alimentación influyen en el estado de nuestra piel, por lo tanto,
-            las necesidades específicas de la piel varían en cada persona, no se
-            trata de copiar una rutina que dé buenos resultados en una amiga,
-            porque no necesariamente funcionará bien en ti. Al final, los
-            resultados dependen del tipo de ingredientes que tenga cada producto
-            y el conocimiento que existe detrás de la formulación.
+            <p>
+              La piel es una membrana semipermeable, compuesta por 3 capas,
+              epidermis, dermis e hipodermis. Está siempre expuesta al ambiente,
+              por eso tenemos que cuidarla.
 
-            <br />
+              <br />
 
-            Hoy en día existen cada vez más opciones que te ofrecen varias
-            soluciones en un mismo producto, lo cual ayuda a tu piel y también
-            al medio ambiente al producir y desechar menos frascos.
-          </p>
-        </section>
+              La genética, el envejecimiento, las hormonas, el estrés, la
+              alimentación influyen en el estado de nuestra piel, por lo tanto,
+              las necesidades específicas de la piel varían en cada persona, no
+              se trata de copiar una rutina que dé buenos resultados en una
+              amiga, porque no necesariamente funcionará bien en ti. Al final,
+              los resultados dependen del tipo de ingredientes que tenga cada
+              producto y el conocimiento que existe detrás de la formulación.
+
+              <br />
+
+              Hoy en día existen cada vez más opciones que te ofrecen varias
+              soluciones en un mismo producto, lo cual ayuda a tu piel y también
+              al medio ambiente al producir y desechar menos frascos.
+            </p>
+          </section>
+        </main>
       </div>
 
       <footer>
